@@ -69,8 +69,11 @@
 </head>
 <body>
 
-    <div id="start" onclick="startSuprise()">
-        💌 Clique aqui
+    <div id="start"> 
+
+        <button onclick="startSuprise()" id="btn">
+        💖 Clique aqui para sua surpresa 💖 
+        </button>
     </div>
      
     <div id="contentd">
@@ -99,7 +102,7 @@
                 heart.innerHTML = "💖";
 
                 heart.style.left = Math.random() * 100 + "vw";
-                heart.style.animationDuration = (Math.random() * 3 + 2) + "s";
+                heart.style.animationDuration = (Math.random() * 3 + 2) + "s";''
 
                 document.body.appendChild(heart);
 
